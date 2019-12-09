@@ -11,8 +11,6 @@ class Review extends StatelessWidget {
 
   Review(this.pathImage, this.name, this.details, this.comment);
 
-  get title_stars => DescriptionPlace;
-
   @override
   Widget build(BuildContext context) {
 
@@ -32,25 +30,21 @@ class Review extends StatelessWidget {
       margin: EdgeInsets.only(
           left: 20.0
       ),
-      child: Row(
-        children: <Widget>[
-          Text(details,
+      child:  Text(details,
               textAlign: TextAlign.left,
               style: TextStyle(
                   fontSize: 13.0,
                   fontFamily: 'Lato',
                 color: Color(0xFFa3a5a7)
               )),
-          title_stars,
-        ],
-      ),
+
     );
 
     final userComment = Container(
       margin: EdgeInsets.only(
           left: 20.0
       ),
-      child: Text(details,
+      child: Text(comment,
           textAlign: TextAlign.left,
           style: TextStyle(
               fontSize: 13.0,
@@ -86,7 +80,7 @@ class Review extends StatelessWidget {
     return Row(
       children: <Widget>[
         photo,
-        userComment
+        userDetails
       ],
     );
   }
