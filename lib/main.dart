@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trips_app/description_place.dart';
+import 'package:trips_app/review_list.dart';
 
 void main() => runApp(App());
 
@@ -21,7 +22,8 @@ class App extends StatelessWidget {
         appBar: AppBar(
     title: Text('Trips App')
     ),
-    body: DescriptionPlace("Bahamas", 4, descriptionDummy ),
+    //body: DescriptionPlace("Bahamas", 4, descriptionDummy ),
+        body: ReviewList(),
     )
     );
   }
