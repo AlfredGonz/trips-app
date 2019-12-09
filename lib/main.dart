@@ -28,7 +28,7 @@ class App extends StatelessWidget {
                 ReviewList()
               ],
             ),
-            GradientBack(),
+            GradientBack('Popular'),
           ],
         ),
     )
