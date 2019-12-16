@@ -1,18 +1,15 @@
 import 'package:flutter/material.dart';
 
 class DescriptionPlace extends StatelessWidget {
+  final String namePlace;
+  final int starts;
+  final String descriptionPlace;
 
-  String namePlace;
-  int Starts;
-  String descriptionPlace;
-
-
-  DescriptionPlace(this.namePlace, this.Starts, this.descriptionPlace);
+  DescriptionPlace(this.namePlace, this.starts, this.descriptionPlace);
 
   @override
   Widget build(BuildContext context) {
-
-    final star_half = Container(
+    final starhalf = Container(
       margin: EdgeInsets.only(top: 323.0, right: 3.0),
       child: Icon(
         Icons.star_half,
@@ -20,7 +17,7 @@ class DescriptionPlace extends StatelessWidget {
       ),
     );
 
-    final star_border = Container(
+    final starborder = Container(
       margin: EdgeInsets.only(top: 323.0, right: 3.0),
       child: Icon(
         Icons.star_border,
@@ -41,14 +38,14 @@ class DescriptionPlace extends StatelessWidget {
       child: Text(
         descriptionPlace,
         style: const TextStyle(
-          fontFamily: 'Lato',
+            fontFamily: 'Lato',
             fontSize: 16.0,
             fontWeight: FontWeight.bold,
             color: Color(0xFF56575a)),
       ),
     );
 
-    final title_stars = Row(
+    final titlestars = Row(
       children: <Widget>[
         Container(
           margin: EdgeInsets.only(
@@ -70,13 +67,13 @@ class DescriptionPlace extends StatelessWidget {
             star,
             star,
             star,
-            star_border,
+            starborder,
           ],
         )
       ],
     );
     return Column(
-      children: <Widget>[title_stars, description],
+      children: <Widget>[titlestars, description],
     );
   }
 }
