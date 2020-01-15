@@ -25,7 +25,8 @@ class _AlTripsState extends State<AlTrips> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      body: widgetsChildren[index],
+      body: 
+      widgetsChildren[index],
       bottomNavigationBar: Theme(
         data: Theme.of(context).copyWith(
           canvasColor: Colors.white,
