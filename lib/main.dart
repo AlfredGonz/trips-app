@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:trips_app/al_trips.dart';
-import 'package:trips_app/al_trips_cupertino.dart';
+import 'platzi_trips_cupertino.dart';
 
-void main() => runApp(App());
+void main() => runApp(MyApp());
 
-class App extends StatelessWidget {
-  
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Trips App',
-        theme: ThemeData(primarySwatch: Colors.blue),
-        home: AlTripsCupertino());
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData(),
+      home: PlatziTripsCupertino(),
+    );
   }
 }
