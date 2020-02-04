@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "212737718308",
+    "firebase_url": "https://trips-app-9f069.firebaseio.com",
+    "project_id": "trips-app-9f069",
+    "storage_bucket": "trips-app-9f069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212737718308:android:db066e2a502d9c68aa00b1",
+        "android_client_info": {
+          "package_name": "com.voyager.trips_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212737718308-diuld56aeqp82tkm685ghilc1ln8m54e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.voyager.trips_app",
+            "certificate_hash": "31508a5458ddfe66d1d7c7cd932a6670d9dec0ee"
+          }
+        },
+        {
+          "client_id": "212737718308-kiv3ds233bn2fki52is40ei0fb2frkp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC84pNeBrMWuSTXedcKpU_rAIKZkbHyW5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212737718308-kiv3ds233bn2fki52is40ei0fb2frkp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
