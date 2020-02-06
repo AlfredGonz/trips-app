@@ -5,7 +5,7 @@ import 'circle_button.dart';
 
 class ButtonsBar extends StatelessWidget {
 
-  UserBloc userBloc;
+  static UserBloc userBloc;
 
   @override
   Widget build(BuildContext context) {
